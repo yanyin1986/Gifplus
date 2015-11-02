@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F708A4BC1BE74C1C00478820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4BB1BE74C1C00478820 /* main.m */; };
+		F708A4BF1BE74C1C00478820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4BE1BE74C1C00478820 /* AppDelegate.m */; };
+		F708A4C21BE74C1C00478820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4C11BE74C1C00478820 /* ViewController.m */; };
+		F708A4C51BE74C1C00478820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F708A4C31BE74C1C00478820 /* Main.storyboard */; };
+		F708A4C71BE74C1C00478820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F708A4C61BE74C1C00478820 /* Assets.xcassets */; };
+		F708A4CA1BE74C1C00478820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F708A4C81BE74C1C00478820 /* LaunchScreen.storyboard */; };
+		F708A4D51BE74C1C00478820 /* Gif_PlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4D41BE74C1C00478820 /* Gif_PlusTests.m */; };
+		F708A4E01BE74C1C00478820 /* Gif_PlusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4DF1BE74C1C00478820 /* Gif_PlusUITests.m */; };
+		F708A4F31BE74C5A00478820 /* ANGifEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4EE1BE74C5A00478820 /* ANGifEncoder.m */; };
+		F708A4F41BE74C5A00478820 /* ANGifGraphicControlExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4F01BE74C5A00478820 /* ANGifGraphicControlExt.m */; };
+		F708A4F51BE74C5A00478820 /* ANGifLogicalScreenDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4F21BE74C5A00478820 /* ANGifLogicalScreenDesc.m */; };
+		F708A4FE1BE74CAD00478820 /* ANGifDataSubblock.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4F81BE74CAD00478820 /* ANGifDataSubblock.m */; };
+		F708A4FF1BE74CAD00478820 /* ANGifImageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4FA1BE74CAD00478820 /* ANGifImageDescriptor.m */; };
+		F708A5001BE74CAD00478820 /* ANGifImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A4FC1BE74CAD00478820 /* ANGifImageFrame.m */; };
+		F708A5061BE751B100478820 /* ANAvgColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5031BE751B100478820 /* ANAvgColorTable.m */; };
+		F708A5071BE751B100478820 /* ANColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5051BE751B100478820 /* ANColorTable.m */; };
+		F708A50D1BE751C300478820 /* ANCutColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A50A1BE751C300478820 /* ANCutColorTable.m */; };
+		F708A50E1BE751C300478820 /* ANMutableColorArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A50C1BE751C300478820 /* ANMutableColorArray.m */; };
+		F708A5121BE751D900478820 /* LZWSpoof.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5111BE751D900478820 /* LZWSpoof.m */; };
+		F708A5181BE752D700478820 /* ANGifAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5151BE752D700478820 /* ANGifAppExtension.m */; };
+		F708A5191BE752D700478820 /* ANGifNetscapeAppExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5171BE752D700478820 /* ANGifNetscapeAppExtension.m */; };
+		F708A51F1BE7607700478820 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A51C1BE7607700478820 /* ANImageBitmapRep.m */; };
+		F708A5201BE7607700478820 /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A51E1BE7607700478820 /* BitmapContextRep.m */; };
+		F708A5291BE7609400478820 /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5251BE7609400478820 /* OSCommonImage.m */; };
+		F708A52A1BE7609400478820 /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5271BE7609400478820 /* UIImage+ANImageBitmapRep.m */; };
+		F708A5301BE760BA00478820 /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A52D1BE760BA00478820 /* CGContextCreator.m */; };
+		F708A5311BE760BA00478820 /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A52F1BE760BA00478820 /* CGImageContainer.m */; };
+		F708A53B1BE7619200478820 /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5341BE7619200478820 /* BitmapContextManipulator.m */; };
+		F708A53C1BE7619200478820 /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5361BE7619200478820 /* BitmapCropManipulator.m */; };
+		F708A53D1BE7619200478820 /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5381BE7619200478820 /* BitmapRotationManipulator.m */; };
+		F708A53E1BE7619200478820 /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A53A1BE7619200478820 /* BitmapScaleManipulator.m */; };
+		F708A5431BE762AE00478820 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F708A5421BE762AE00478820 /* AVFoundation.framework */; };
+		F708A5461BE76FD800478820 /* UIImagePixelSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F708A5451BE76FD800478820 /* UIImagePixelSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F708A4D11BE74C1C00478820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F708A4AF1BE74C1C00478820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F708A4B61BE74C1C00478820;
+			remoteInfo = "Gif+Plus";
+		};
+		F708A4DC1BE74C1C00478820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F708A4AF1BE74C1C00478820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F708A4B61BE74C1C00478820;
+			remoteInfo = "Gif+Plus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F708A4B71BE74C1C00478820 /* Gif+Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gif+Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F708A4BB1BE74C1C00478820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F708A4BD1BE74C1C00478820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F708A4BE1BE74C1C00478820 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F708A4C01BE74C1C00478820 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F708A4C11BE74C1C00478820 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F708A4C41BE74C1C00478820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F708A4C61BE74C1C00478820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F708A4C91BE74C1C00478820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F708A4CB1BE74C1C00478820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F708A4D01BE74C1C00478820 /* Gif+PlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gif+PlusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F708A4D41BE74C1C00478820 /* Gif_PlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gif_PlusTests.m; sourceTree = "<group>"; };
+		F708A4D61BE74C1C00478820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F708A4DB1BE74C1C00478820 /* Gif+PlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gif+PlusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F708A4DF1BE74C1C00478820 /* Gif_PlusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gif_PlusUITests.m; sourceTree = "<group>"; };
+		F708A4E11BE74C1C00478820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F708A4ED1BE74C5A00478820 /* ANGifEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifEncoder.h; sourceTree = "<group>"; };
+		F708A4EE1BE74C5A00478820 /* ANGifEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifEncoder.m; sourceTree = "<group>"; };
+		F708A4EF1BE74C5A00478820 /* ANGifGraphicControlExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifGraphicControlExt.h; sourceTree = "<group>"; };
+		F708A4F01BE74C5A00478820 /* ANGifGraphicControlExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifGraphicControlExt.m; sourceTree = "<group>"; };
+		F708A4F11BE74C5A00478820 /* ANGifLogicalScreenDesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifLogicalScreenDesc.h; sourceTree = "<group>"; };
+		F708A4F21BE74C5A00478820 /* ANGifLogicalScreenDesc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifLogicalScreenDesc.m; sourceTree = "<group>"; };
+		F708A4F71BE74CAD00478820 /* ANGifDataSubblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifDataSubblock.h; sourceTree = "<group>"; };
+		F708A4F81BE74CAD00478820 /* ANGifDataSubblock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifDataSubblock.m; sourceTree = "<group>"; };
+		F708A4F91BE74CAD00478820 /* ANGifImageDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifImageDescriptor.h; sourceTree = "<group>"; };
+		F708A4FA1BE74CAD00478820 /* ANGifImageDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifImageDescriptor.m; sourceTree = "<group>"; };
+		F708A4FB1BE74CAD00478820 /* ANGifImageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifImageFrame.h; sourceTree = "<group>"; };
+		F708A4FC1BE74CAD00478820 /* ANGifImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifImageFrame.m; sourceTree = "<group>"; };
+		F708A4FD1BE74CAD00478820 /* ANGifImageFramePixelSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifImageFramePixelSource.h; sourceTree = "<group>"; };
+		F708A5021BE751B100478820 /* ANAvgColorTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAvgColorTable.h; sourceTree = "<group>"; };
+		F708A5031BE751B100478820 /* ANAvgColorTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAvgColorTable.m; sourceTree = "<group>"; };
+		F708A5041BE751B100478820 /* ANColorTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANColorTable.h; sourceTree = "<group>"; };
+		F708A5051BE751B100478820 /* ANColorTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANColorTable.m; sourceTree = "<group>"; };
+		F708A5091BE751C300478820 /* ANCutColorTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANCutColorTable.h; sourceTree = "<group>"; };
+		F708A50A1BE751C300478820 /* ANCutColorTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANCutColorTable.m; sourceTree = "<group>"; };
+		F708A50B1BE751C300478820 /* ANMutableColorArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMutableColorArray.h; sourceTree = "<group>"; };
+		F708A50C1BE751C300478820 /* ANMutableColorArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMutableColorArray.m; sourceTree = "<group>"; };
+		F708A5101BE751D900478820 /* LZWSpoof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZWSpoof.h; sourceTree = "<group>"; };
+		F708A5111BE751D900478820 /* LZWSpoof.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZWSpoof.m; sourceTree = "<group>"; };
+		F708A5141BE752D700478820 /* ANGifAppExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifAppExtension.h; sourceTree = "<group>"; };
+		F708A5151BE752D700478820 /* ANGifAppExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifAppExtension.m; sourceTree = "<group>"; };
+		F708A5161BE752D700478820 /* ANGifNetscapeAppExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANGifNetscapeAppExtension.h; sourceTree = "<group>"; };
+		F708A5171BE752D700478820 /* ANGifNetscapeAppExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANGifNetscapeAppExtension.m; sourceTree = "<group>"; };
+		F708A51B1BE7607700478820 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
+		F708A51C1BE7607700478820 /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		F708A51D1BE7607700478820 /* BitmapContextRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextRep.h; sourceTree = "<group>"; };
+		F708A51E1BE7607700478820 /* BitmapContextRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextRep.m; sourceTree = "<group>"; };
+		F708A5241BE7609400478820 /* OSCommonImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCommonImage.h; sourceTree = "<group>"; };
+		F708A5251BE7609400478820 /* OSCommonImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCommonImage.m; sourceTree = "<group>"; };
+		F708A5261BE7609400478820 /* UIImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		F708A5271BE7609400478820 /* UIImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		F708A52C1BE760BA00478820 /* CGContextCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextCreator.h; sourceTree = "<group>"; };
+		F708A52D1BE760BA00478820 /* CGContextCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
+		F708A52E1BE760BA00478820 /* CGImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
+		F708A52F1BE760BA00478820 /* CGImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
+		F708A5331BE7619200478820 /* BitmapContextManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextManipulator.h; sourceTree = "<group>"; };
+		F708A5341BE7619200478820 /* BitmapContextManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextManipulator.m; sourceTree = "<group>"; };
+		F708A5351BE7619200478820 /* BitmapCropManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapCropManipulator.h; sourceTree = "<group>"; };
+		F708A5361BE7619200478820 /* BitmapCropManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapCropManipulator.m; sourceTree = "<group>"; };
+		F708A5371BE7619200478820 /* BitmapRotationManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapRotationManipulator.h; sourceTree = "<group>"; };
+		F708A5381BE7619200478820 /* BitmapRotationManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapRotationManipulator.m; sourceTree = "<group>"; };
+		F708A5391BE7619200478820 /* BitmapScaleManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapScaleManipulator.h; sourceTree = "<group>"; };
+		F708A53A1BE7619200478820 /* BitmapScaleManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapScaleManipulator.m; sourceTree = "<group>"; };
+		F708A5421BE762AE00478820 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F708A5441BE76FD800478820 /* UIImagePixelSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImagePixelSource.h; sourceTree = "<group>"; };
+		F708A5451BE76FD800478820 /* UIImagePixelSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImagePixelSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F708A4B41BE74C1C00478820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F708A5431BE762AE00478820 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F708A4CD1BE74C1C00478820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F708A4D81BE74C1C00478820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F708A4AE1BE74C1C00478820 = {
+			isa = PBXGroup;
+			children = (
+				F708A5421BE762AE00478820 /* AVFoundation.framework */,
+				F708A4B91BE74C1C00478820 /* Gif+Plus */,
+				F708A4D31BE74C1C00478820 /* Gif+PlusTests */,
+				F708A4DE1BE74C1C00478820 /* Gif+PlusUITests */,
+				F708A4B81BE74C1C00478820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F708A4B81BE74C1C00478820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F708A4B71BE74C1C00478820 /* Gif+Plus.app */,
+				F708A4D01BE74C1C00478820 /* Gif+PlusTests.xctest */,
+				F708A4DB1BE74C1C00478820 /* Gif+PlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F708A4B91BE74C1C00478820 /* Gif+Plus */ = {
+			isa = PBXGroup;
+			children = (
+				F708A5211BE7608100478820 /* ANImageBitmapRep */,
+				F708A4F61BE74C7C00478820 /* ANGif */,
+				F708A4BD1BE74C1C00478820 /* AppDelegate.h */,
+				F708A4BE1BE74C1C00478820 /* AppDelegate.m */,
+				F708A4C01BE74C1C00478820 /* ViewController.h */,
+				F708A4C11BE74C1C00478820 /* ViewController.m */,
+				F708A4C31BE74C1C00478820 /* Main.storyboard */,
+				F708A4C61BE74C1C00478820 /* Assets.xcassets */,
+				F708A4C81BE74C1C00478820 /* LaunchScreen.storyboard */,
+				F708A4CB1BE74C1C00478820 /* Info.plist */,
+				F708A4BA1BE74C1C00478820 /* Supporting Files */,
+			);
+			path = "Gif+Plus";
+			sourceTree = "<group>";
+		};
+		F708A4BA1BE74C1C00478820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F708A4BB1BE74C1C00478820 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F708A4D31BE74C1C00478820 /* Gif+PlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				F708A4D41BE74C1C00478820 /* Gif_PlusTests.m */,
+				F708A4D61BE74C1C00478820 /* Info.plist */,
+			);
+			path = "Gif+PlusTests";
+			sourceTree = "<group>";
+		};
+		F708A4DE1BE74C1C00478820 /* Gif+PlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F708A4DF1BE74C1C00478820 /* Gif_PlusUITests.m */,
+				F708A4E11BE74C1C00478820 /* Info.plist */,
+			);
+			path = "Gif+PlusUITests";
+			sourceTree = "<group>";
+		};
+		F708A4F61BE74C7C00478820 /* ANGif */ = {
+			isa = PBXGroup;
+			children = (
+				F708A4ED1BE74C5A00478820 /* ANGifEncoder.h */,
+				F708A4EE1BE74C5A00478820 /* ANGifEncoder.m */,
+				F708A4EF1BE74C5A00478820 /* ANGifGraphicControlExt.h */,
+				F708A4F01BE74C5A00478820 /* ANGifGraphicControlExt.m */,
+				F708A4F11BE74C5A00478820 /* ANGifLogicalScreenDesc.h */,
+				F708A4F21BE74C5A00478820 /* ANGifLogicalScreenDesc.m */,
+				F708A51A1BE752DA00478820 /* AppExtensions */,
+				F708A5131BE751DC00478820 /* LZW */,
+				F708A5081BE751B600478820 /* ColorTable */,
+				F708A5011BE74CB100478820 /* ImageFrame */,
+			);
+			name = ANGif;
+			sourceTree = "<group>";
+		};
+		F708A5011BE74CB100478820 /* ImageFrame */ = {
+			isa = PBXGroup;
+			children = (
+				F708A4F71BE74CAD00478820 /* ANGifDataSubblock.h */,
+				F708A4F81BE74CAD00478820 /* ANGifDataSubblock.m */,
+				F708A4F91BE74CAD00478820 /* ANGifImageDescriptor.h */,
+				F708A4FA1BE74CAD00478820 /* ANGifImageDescriptor.m */,
+				F708A4FB1BE74CAD00478820 /* ANGifImageFrame.h */,
+				F708A4FC1BE74CAD00478820 /* ANGifImageFrame.m */,
+				F708A4FD1BE74CAD00478820 /* ANGifImageFramePixelSource.h */,
+			);
+			name = ImageFrame;
+			sourceTree = "<group>";
+		};
+		F708A5081BE751B600478820 /* ColorTable */ = {
+			isa = PBXGroup;
+			children = (
+				F708A5021BE751B100478820 /* ANAvgColorTable.h */,
+				F708A5031BE751B100478820 /* ANAvgColorTable.m */,
+				F708A5041BE751B100478820 /* ANColorTable.h */,
+				F708A5051BE751B100478820 /* ANColorTable.m */,
+				F708A50F1BE751C700478820 /* Cut */,
+			);
+			name = ColorTable;
+			sourceTree = "<group>";
+		};
+		F708A50F1BE751C700478820 /* Cut */ = {
+			isa = PBXGroup;
+			children = (
+				F708A5091BE751C300478820 /* ANCutColorTable.h */,
+				F708A50A1BE751C300478820 /* ANCutColorTable.m */,
+				F708A50B1BE751C300478820 /* ANMutableColorArray.h */,
+				F708A50C1BE751C300478820 /* ANMutableColorArray.m */,
+			);
+			name = Cut;
+			sourceTree = "<group>";
+		};
+		F708A5131BE751DC00478820 /* LZW */ = {
+			isa = PBXGroup;
+			children = (
+				F708A5101BE751D900478820 /* LZWSpoof.h */,
+				F708A5111BE751D900478820 /* LZWSpoof.m */,
+			);
+			name = LZW;
+			sourceTree = "<group>";
+		};
+		F708A51A1BE752DA00478820 /* AppExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				F708A5141BE752D700478820 /* ANGifAppExtension.h */,
+				F708A5151BE752D700478820 /* ANGifAppExtension.m */,
+				F708A5161BE752D700478820 /* ANGifNetscapeAppExtension.h */,
+				F708A5171BE752D700478820 /* ANGifNetscapeAppExtension.m */,
+			);
+			name = AppExtensions;
+			sourceTree = "<group>";
+		};
+		F708A5211BE7608100478820 /* ANImageBitmapRep */ = {
+			isa = PBXGroup;
+			children = (
+				F708A51B1BE7607700478820 /* ANImageBitmapRep.h */,
+				F708A51C1BE7607700478820 /* ANImageBitmapRep.m */,
+				F708A51D1BE7607700478820 /* BitmapContextRep.h */,
+				F708A51E1BE7607700478820 /* BitmapContextRep.m */,
+				F708A53F1BE7619700478820 /* Manipulators */,
+				F708A5321BE760C900478820 /* CoreGraphics */,
+				F708A52B1BE760A200478820 /* Compatibility */,
+				F708A5441BE76FD800478820 /* UIImagePixelSource.h */,
+				F708A5451BE76FD800478820 /* UIImagePixelSource.m */,
+			);
+			name = ANImageBitmapRep;
+			sourceTree = "<group>";
+		};
+		F708A52B1BE760A200478820 /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				F708A5241BE7609400478820 /* OSCommonImage.h */,
+				F708A5251BE7609400478820 /* OSCommonImage.m */,
+				F708A5261BE7609400478820 /* UIImage+ANImageBitmapRep.h */,
+				F708A5271BE7609400478820 /* UIImage+ANImageBitmapRep.m */,
+			);
+			name = Compatibility;
+			sourceTree = "<group>";
+		};
+		F708A5321BE760C900478820 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				F708A52C1BE760BA00478820 /* CGContextCreator.h */,
+				F708A52D1BE760BA00478820 /* CGContextCreator.m */,
+				F708A52E1BE760BA00478820 /* CGImageContainer.h */,
+				F708A52F1BE760BA00478820 /* CGImageContainer.m */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		F708A53F1BE7619700478820 /* Manipulators */ = {
+			isa = PBXGroup;
+			children = (
+				F708A5331BE7619200478820 /* BitmapContextManipulator.h */,
+				F708A5341BE7619200478820 /* BitmapContextManipulator.m */,
+				F708A5351BE7619200478820 /* BitmapCropManipulator.h */,
+				F708A5361BE7619200478820 /* BitmapCropManipulator.m */,
+				F708A5371BE7619200478820 /* BitmapRotationManipulator.h */,
+				F708A5381BE7619200478820 /* BitmapRotationManipulator.m */,
+				F708A5391BE7619200478820 /* BitmapScaleManipulator.h */,
+				F708A53A1BE7619200478820 /* BitmapScaleManipulator.m */,
+			);
+			name = Manipulators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F708A4B61BE74C1C00478820 /* Gif+Plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F708A4E41BE74C1C00478820 /* Build configuration list for PBXNativeTarget "Gif+Plus" */;
+			buildPhases = (
+				F708A4B31BE74C1C00478820 /* Sources */,
+				F708A4B41BE74C1C00478820 /* Frameworks */,
+				F708A4B51BE74C1C00478820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gif+Plus";
+			productName = "Gif+Plus";
+			productReference = F708A4B71BE74C1C00478820 /* Gif+Plus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F708A4CF1BE74C1C00478820 /* Gif+PlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F708A4E71BE74C1C00478820 /* Build configuration list for PBXNativeTarget "Gif+PlusTests" */;
+			buildPhases = (
+				F708A4CC1BE74C1C00478820 /* Sources */,
+				F708A4CD1BE74C1C00478820 /* Frameworks */,
+				F708A4CE1BE74C1C00478820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F708A4D21BE74C1C00478820 /* PBXTargetDependency */,
+			);
+			name = "Gif+PlusTests";
+			productName = "Gif+PlusTests";
+			productReference = F708A4D01BE74C1C00478820 /* Gif+PlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F708A4DA1BE74C1C00478820 /* Gif+PlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F708A4EA1BE74C1C00478820 /* Build configuration list for PBXNativeTarget "Gif+PlusUITests" */;
+			buildPhases = (
+				F708A4D71BE74C1C00478820 /* Sources */,
+				F708A4D81BE74C1C00478820 /* Frameworks */,
+				F708A4D91BE74C1C00478820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F708A4DD1BE74C1C00478820 /* PBXTargetDependency */,
+			);
+			name = "Gif+PlusUITests";
+			productName = "Gif+PlusUITests";
+			productReference = F708A4DB1BE74C1C00478820 /* Gif+PlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F708A4AF1BE74C1C00478820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tinycomic;
+				TargetAttributes = {
+					F708A4B61BE74C1C00478820 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F708A4CF1BE74C1C00478820 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F708A4B61BE74C1C00478820;
+					};
+					F708A4DA1BE74C1C00478820 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F708A4B61BE74C1C00478820;
+					};
+				};
+			};
+			buildConfigurationList = F708A4B21BE74C1C00478820 /* Build configuration list for PBXProject "Gif+Plus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F708A4AE1BE74C1C00478820;
+			productRefGroup = F708A4B81BE74C1C00478820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F708A4B61BE74C1C00478820 /* Gif+Plus */,
+				F708A4CF1BE74C1C00478820 /* Gif+PlusTests */,
+				F708A4DA1BE74C1C00478820 /* Gif+PlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F708A4B51BE74C1C00478820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F708A4CA1BE74C1C00478820 /* LaunchScreen.storyboard in Resources */,
+				F708A4C71BE74C1C00478820 /* Assets.xcassets in Resources */,
+				F708A4C51BE74C1C00478820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F708A4CE1BE74C1C00478820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F708A4D91BE74C1C00478820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F708A4B31BE74C1C00478820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F708A5311BE760BA00478820 /* CGImageContainer.m in Sources */,
+				F708A50E1BE751C300478820 /* ANMutableColorArray.m in Sources */,
+				F708A4FF1BE74CAD00478820 /* ANGifImageDescriptor.m in Sources */,
+				F708A53B1BE7619200478820 /* BitmapContextManipulator.m in Sources */,
+				F708A52A1BE7609400478820 /* UIImage+ANImageBitmapRep.m in Sources */,
+				F708A53E1BE7619200478820 /* BitmapScaleManipulator.m in Sources */,
+				F708A53D1BE7619200478820 /* BitmapRotationManipulator.m in Sources */,
+				F708A5071BE751B100478820 /* ANColorTable.m in Sources */,
+				F708A5301BE760BA00478820 /* CGContextCreator.m in Sources */,
+				F708A4F51BE74C5A00478820 /* ANGifLogicalScreenDesc.m in Sources */,
+				F708A4C21BE74C1C00478820 /* ViewController.m in Sources */,
+				F708A5461BE76FD800478820 /* UIImagePixelSource.m in Sources */,
+				F708A5121BE751D900478820 /* LZWSpoof.m in Sources */,
+				F708A4FE1BE74CAD00478820 /* ANGifDataSubblock.m in Sources */,
+				F708A5061BE751B100478820 /* ANAvgColorTable.m in Sources */,
+				F708A50D1BE751C300478820 /* ANCutColorTable.m in Sources */,
+				F708A4BF1BE74C1C00478820 /* AppDelegate.m in Sources */,
+				F708A53C1BE7619200478820 /* BitmapCropManipulator.m in Sources */,
+				F708A5181BE752D700478820 /* ANGifAppExtension.m in Sources */,
+				F708A4F31BE74C5A00478820 /* ANGifEncoder.m in Sources */,
+				F708A5291BE7609400478820 /* OSCommonImage.m in Sources */,
+				F708A5201BE7607700478820 /* BitmapContextRep.m in Sources */,
+				F708A5191BE752D700478820 /* ANGifNetscapeAppExtension.m in Sources */,
+				F708A51F1BE7607700478820 /* ANImageBitmapRep.m in Sources */,
+				F708A5001BE74CAD00478820 /* ANGifImageFrame.m in Sources */,
+				F708A4F41BE74C5A00478820 /* ANGifGraphicControlExt.m in Sources */,
+				F708A4BC1BE74C1C00478820 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F708A4CC1BE74C1C00478820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F708A4D51BE74C1C00478820 /* Gif_PlusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F708A4D71BE74C1C00478820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F708A4E01BE74C1C00478820 /* Gif_PlusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F708A4D21BE74C1C00478820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F708A4B61BE74C1C00478820 /* Gif+Plus */;
+			targetProxy = F708A4D11BE74C1C00478820 /* PBXContainerItemProxy */;
+		};
+		F708A4DD1BE74C1C00478820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F708A4B61BE74C1C00478820 /* Gif+Plus */;
+			targetProxy = F708A4DC1BE74C1C00478820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F708A4C31BE74C1C00478820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F708A4C41BE74C1C00478820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F708A4C81BE74C1C00478820 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F708A4C91BE74C1C00478820 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F708A4E21BE74C1C00478820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F708A4E31BE74C1C00478820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F708A4E51BE74C1C00478820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gif+Plus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinycomic.Gif-Plus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F708A4E61BE74C1C00478820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gif+Plus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinycomic.Gif-Plus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F708A4E81BE74C1C00478820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gif+PlusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinycomic.Gif-PlusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gif+Plus.app/Gif+Plus";
+			};
+			name = Debug;
+		};
+		F708A4E91BE74C1C00478820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gif+PlusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinycomic.Gif-PlusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gif+Plus.app/Gif+Plus";
+			};
+			name = Release;
+		};
+		F708A4EB1BE74C1C00478820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gif+PlusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinycomic.Gif-PlusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gif+Plus";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F708A4EC1BE74C1C00478820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gif+PlusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tinycomic.Gif-PlusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gif+Plus";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F708A4B21BE74C1C00478820 /* Build configuration list for PBXProject "Gif+Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F708A4E21BE74C1C00478820 /* Debug */,
+				F708A4E31BE74C1C00478820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F708A4E41BE74C1C00478820 /* Build configuration list for PBXNativeTarget "Gif+Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F708A4E51BE74C1C00478820 /* Debug */,
+				F708A4E61BE74C1C00478820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F708A4E71BE74C1C00478820 /* Build configuration list for PBXNativeTarget "Gif+PlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F708A4E81BE74C1C00478820 /* Debug */,
+				F708A4E91BE74C1C00478820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F708A4EA1BE74C1C00478820 /* Build configuration list for PBXNativeTarget "Gif+PlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F708A4EB1BE74C1C00478820 /* Debug */,
+				F708A4EC1BE74C1C00478820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F708A4AF1BE74C1C00478820 /* Project object */;
+}
